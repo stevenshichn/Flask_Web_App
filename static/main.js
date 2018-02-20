@@ -2,7 +2,7 @@
 
   'use strict';
 
-  angular.module('WordcountApp', [])
+  angular.module('Flask_Web_App', [])
 
   .controller('WordcountController', ['$scope', '$log', '$http', '$timeout',
     function($scope, $log, $http, $timeout) {
